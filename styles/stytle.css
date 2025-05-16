@@ -488,9 +488,9 @@ footer{
     transition: 300ms ease-in-out;
 }
 
-.icon-media:hover{
-    fill: #301c6a9c;
-}
+.social-media__icons a:hover .icon-media{
+        fill: #301c6a9c;
+    }
 
 .footer__payment-methods{
     display: flex;
@@ -566,12 +566,6 @@ footer{
     .hero__container-image{
         width: 100%;
         max-width: 880px;
-    }
-
-    .hero__container-image img{
-        width: 100%;
-        max-width: 100%;
-        overflow: hidden;
     }
 
     .hero__container-text{
