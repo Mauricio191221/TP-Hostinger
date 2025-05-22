@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 :root{
     --background-color: #ffffff;
     --background-color2:#1f1346;
@@ -54,7 +55,6 @@ header{
     justify-content: space-between;
     padding: 20px 40px;
     margin: auto;
-
 }
 
 nav{
@@ -309,7 +309,6 @@ main{
     width: 100%;
 }
 
-
 .migration__title{
     display: flex;
     flex-direction: column;
@@ -489,8 +488,8 @@ footer{
 }
 
 .social-media__icons a:hover .icon-media{
-        fill: #301c6a9c;
-    }
+    fill: #301c6a9c;
+}
 
 .footer__payment-methods{
     display: flex;
@@ -523,6 +522,7 @@ footer{
 
 .footer__policy-pages{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     order: 4;
     gap: 16px;
@@ -607,7 +607,7 @@ footer{
         right: 16px;
     }
 
-        .nav--tablet__button{
+    .nav--tablet__button{
         width: 100%;
     }
 
@@ -797,9 +797,14 @@ footer{
         order: 1;
     }
 
+    .migration{
+        padding: 56px 0;
+    }
+
     .migration__title{
         max-width: 540px;
         padding: 0 16px;
+        margin-bottom: 32px;
     }
 
     .migration__title h2{
@@ -809,6 +814,7 @@ footer{
     .migration__container-card{
         max-width: 540px;
         padding: 0 16px;
+        gap: 16px;
     }
 
     .container-footer{
@@ -834,7 +840,10 @@ footer{
 
     .footer__policy-pages{
         flex: 1 0 100%;
+        display: flex;
+        justify-content: space-between;
         max-width: 328px;
+        gap: 8px;
     }
 
     .footer__payment-methods{
@@ -849,7 +858,7 @@ footer{
     .footer__copyright-dates{
         margin-bottom: 8px;
     }
-
+    
 }
 
 
